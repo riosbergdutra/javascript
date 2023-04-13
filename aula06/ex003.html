@@ -15,11 +15,14 @@
 </head>
 <body>
     <h1>Olá, Mundo!</h1>
-    <p>Já me livrei da maldição</p>
+    <p>Já me livrei da maldição!!</p>
     <script>
-        window.alert ('minha primeira mensagem'); // alertar 
-        window.confirm ('está gostando de JS?'); // janela de confirmação
-        window.prompt ('Qual é seu nome?'); // vai perguntar
+      var n1 = Number (window.prompt('digite um número: ')) // String
+      var n2 = Number( window.prompt('digite outro número: ')) // String
+      var s = n1 + n2
+      window.alert (`A soma entre ${n1} e ${n2} é igual a ${s}`) // Concatenação
+      // (number + number) para adição 
+      // (string + string) para concatenação   
     </script>
 </body>
 </html>
