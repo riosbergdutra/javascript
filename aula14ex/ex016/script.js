@@ -19,13 +19,13 @@ function contar() {
        if(i < f){
         // Contagem crescente
         for (var c = i; c <= f; c += p){
-            res.innerHTML += ` ${c} \u{1f449}`
+            res.innerHTML += ` ${c} `
            }
            res.innerHTML += `\u{1f3c1}`
        } else {
         // Contagem regressiva
             for(var c = i; c >= f; c-=p){
-             res.innerHTML += ` ${c} \u{1f449}`
+             res.innerHTML += ` ${c} `
             }
             res.innerHTML += `\u{1f3c1}`
        }
