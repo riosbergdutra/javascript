@@ -9,7 +9,7 @@ function isNumero(n) {
     } else {
         return false
     }
-}
+} // este (n) é um parâmetro está dizendo que n precisa ser maior que 1 e menor que 100 ent ele vai retornar o valor que vai ser verdadeiro ou falso   
 
 function inlista(n, l) {
     if (l.indexOf(Number(n)) != -1) {
@@ -17,8 +17,8 @@ function inlista(n, l) {
     } else {
         return false
     }
-        
-    
+    // assim como (n) o l se aplica no mesmo sentido
+    // indexOf busca elementos em array
 }
 
 function adicionar() {
