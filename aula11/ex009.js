@@ -5,3 +5,5 @@ if (país != 'Brasil') {
 } else {
     console.log('Você é Brasileiro!')
 }
+// aqui se refere a if e else que se o valor de if for falso vai ser lido o comando de else
+// neste é usado o que se o resultado diferente de brasil você é estranjeiro se n é Brasileiro

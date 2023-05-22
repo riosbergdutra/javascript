@@ -7,3 +7,4 @@ if(idade < 16){
 } else{
     console.log ('Voto obrigatorio')
 }
+// aqui é usado o else if que facilita mt

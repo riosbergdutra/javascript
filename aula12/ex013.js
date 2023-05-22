@@ -39,3 +39,7 @@ switch(diaSem){
         console.log('[ERRO] Dia Inválido')
         break
 }
+
+//switch é usado assim como if e else só que é um metodo diferente já que n vai ser lido de uma ordem especifica
+// precisa ter o case que vai ser o nome
+// precisa do break para diferenciar as cases

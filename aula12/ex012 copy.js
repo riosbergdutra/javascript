@@ -10,3 +10,6 @@ if (hora >= 6 && hora < 12) {
 } else if (hora < 6) {
     console.log('Boa Madrugada!');
 }
+// se refere as datas que dependendo da 'hora' vai ser bom dia!, boa tarde!, boa noite!, boa madrugada!
+// && é usado para para adicionar ex: eu quero caneta preta e azul tem que ser as duas
+// || é usado para um ou outro sem ser os dois ex: eu quero caneta preta ou azul tem que ser uma das duas e não as duas

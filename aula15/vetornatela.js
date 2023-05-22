@@ -18,3 +18,6 @@ for(let pos=0; pos < valores.length; pos++){
 for (let pos in valores){
     console.log(`A posição ${pos} tem o valor ${valores[pos]}`)
 }
+
+//Podemos utilizar o for...in para percorrer as posições desse array e exibir as informações 
+// e. Isso nos permite acessar e utilizar os elementos do array com base em suas posições.

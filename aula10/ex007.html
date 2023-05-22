@@ -30,9 +30,9 @@
             var tn1 = window.document.getElementById('txtn1')
             var tn2 = window.document.querySelector('input#txtn2')
             var res = window.document.getElementById('res')
-            var n1 = Number(tn1.value)
-            var n2 = Number (tn2.value)
-            var s = n1 + n2
+            var n1 = Number(tn1.value) // Number é usado quando se refere a numeros
+            var n2 = Number (tn2.value) // se refere aos valores de tn1 e do tn2 para isso que serve o value
+            var s = n1 + n2 // vai receber a operação de n1 e n2 em adição +
             res.innerHTML = `A soma entre ${n1} e ${n2} é igual a <strong>${s}</strong>`
             
         }
