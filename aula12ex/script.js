@@ -4,8 +4,7 @@ var txt = document.getElementById('texto')
 var hora = dia.getHours()
 var imagem = document.getElementById('imagem')
 // new Date () é usado para se referir ao dia
-// getHours() está especificando que é o horario!
-
+// getHours() está especificando que é o horario! 
 if (hora >= 6 && hora < 12) {
     txt.innerHTML = `agora são ${hora} horas`
     imagem.innerHTML = "<img src='imagens/download.jpg'>"
